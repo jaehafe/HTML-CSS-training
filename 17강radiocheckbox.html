@@ -1,0 +1,33 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Form - Input</title>
+  <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- 같은 name을 사용해줘야 중복체크 안됨 -->
+<input type="radio" name="subscribtion" value="1" id="Subscribed">
+<label for="Subscribed">구독중</label>
+<input type="radio" name="subscribtion" value="0" id="Unsubscribed">
+<label for="Unsubscribed">미 구독</label>
+<button type="submit">Submit</button>
+
+<h4>사용 가능 언어</h4>
+
+<form>
+  <input type="checkbox" name="skills" value="html" id="html"/>
+  <label for="html">HTML</label>
+  <input type="checkbox" name="skills" value="css" id="css"/>
+  <label for="css">CSS</label>
+  <input type="checkbox" name="skills" value="JavaScript" id="JavaScript"/>
+  <label for="JavaScript">JavaScript</label>
+
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
+
