@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* .tab-menu {
+  overflow: hidden;
+} */
+
+.tab-menu {
+  display: flex;
+  /* 기본값이기 때문에 선언하지 않아도 됨 */
+  /* flex-direction: row; */
+  /* flex-wrap: nowrap; */
+  /* justify-content: flex-start; */
+  align-items: center;
+  max-width: 540px;
+  border-bottom: 1px solid #e5eaef;
+}
+
+.tab-menu-item {
+  margin-right: 16px;
+}
+
+.tab-menu-item a {
+  display: block;
+  padding: 16px 20px;
+}
+
+.tab-menu-item.selected {
+  border-bottom: 2px solid #2860E1;
+}
+
+.tab-menu-item.selected a {
+  color: #2860E1;
+  font-weight: 500;
+
+}
